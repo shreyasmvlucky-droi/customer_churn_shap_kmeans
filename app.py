@@ -137,9 +137,9 @@ if app_mode == "1. Executive Overview & Unique Value":
     st.markdown("""
     Most churn projects stop at predicting binary **0/1** churn outcomes. This project implements a **Hybrid 3-Tier Machine Learning Architecture**:
     
-    1. **Supervised Classifier (XGBoost)** $\rightarrow$ Answers **WHO** will churn with 94.5% accuracy.
-    2. **Explainable AI (SHAP)** $\rightarrow$ Answers **WHY** each customer is churning by decomposing probability into feature attributions.
-    3. **SHAP-based K-Means Clustering** $\rightarrow$ Answers **HOW** to group churners based on *root causes* rather than raw demography, enabling prescriptive retention campaigns.
+    1. **Supervised Classifier (XGBoost)** → Answers **WHO** will churn with 94.5% accuracy.
+    2. **Explainable AI (SHAP)** → Answers **WHY** each customer is churning by decomposing probability into feature attributions.
+    3. **SHAP-based K-Means Clustering** → Answers **HOW** to group churners based on *root causes* rather than raw demography, enabling prescriptive retention campaigns.
     """)
     
     st.image("https://mermaid.ink/svg/p crowd_flow", use_container_width=True) if False else None
